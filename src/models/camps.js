@@ -17,6 +17,16 @@ const CampSchema = new mongoose.Schema({
   detail: {
     type: String,
   },
+  registrations: [
+    {
+      name: {
+        type: String,
+      },
+      address: {
+        type: String,
+      },
+    },
+  ],
 });
 
-module.exports = mongoose.model("Place", CampSchema);
+module.exports = mongoose.model("Camp", CampSchema);

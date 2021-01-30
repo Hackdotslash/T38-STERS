@@ -30,6 +30,10 @@ app.use(
   })
 );
 
+app.use("/api/form", require("./router/healthForm"));
+app.use("/api/camp", require("./router/camp"));
+app.use("/api/admin", require("./router/admin"));
+
 app.get("/", (req, res) => {
   res.json("API running.");
 });
