@@ -1,6 +1,6 @@
 import { Route, Switch } from "react-router-dom";
 import Home from "./Components/Home";
-import Hospitals from "./Components/Hospitals";
+import Hospitals from "./Components/Hospital/Hospitals";
 import Camps from "./Components/Camps";
 
 function App() {
