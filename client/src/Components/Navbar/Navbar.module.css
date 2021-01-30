@@ -1,0 +1,25 @@
+.Nav {
+  height: 100vh;
+  list-style: none;
+  padding: 0px 30px;
+  position: fixed;
+  background-color: #354ba4;
+}
+
+.Nav a {
+  display: block;
+  text-decoration: none;
+}
+
+.Nav li {
+  margin-top: 50px;
+  text-align: center;
+}
+
+li:hover {
+  color: "white";
+}
+
+.active {
+  color: #f1f6fd;
+}
