@@ -1,13 +1,22 @@
 .Hospitals {
-  background: var(--light-blue);
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  margin-top: 1rem;
+}
+.Data {
   padding: 1rem;
+  padding-left: 6rem;
+  min-height: 100vh;
 }
 .Card {
   margin: 1rem;
-  padding: 1rem;
-  background-color: var(--white-color);
-  border-radius: 1rem;
-  box-shadow: 0 5px 0.5rem rgba(0, 0, 0, 0.2);
+  padding: 1rem 1.5rem;
+  background: var(--white-color);
+  border-radius: 1.5rem;
+  position: relative;
+}
+.Directions {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
 }

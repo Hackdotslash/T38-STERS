@@ -20,21 +20,21 @@ const navbar = () => {
           }}
           to="/"
         >
-          <span style={{ color: "#BCAAB2", fontSize: 24 }}>
+          <span style={{ color: "var(--white-color)", fontSize: 24 }}>
             <FontAwesomeIcon icon={faHome} />
           </span>
         </NavLink>
       </li>
       <li>
         <NavLink activeClassName={classes.active} to="/camps">
-          <span style={{ color: "#BCAAB2", fontSize: 24 }}>
+          <span style={{ color: "var(--white-color)", fontSize: 24 }}>
             <FontAwesomeIcon icon={faMedkit} />
           </span>
         </NavLink>
       </li>
       <li>
         <NavLink activeClassName={classes.active} to="/hospitals">
-          <span style={{ color: "#BCAAB2", fontSize: 24 }}>
+          <span style={{ color: "var(--white-color)", fontSize: 24 }}>
             <FontAwesomeIcon icon={faClinicMedical} />
           </span>
         </NavLink>
