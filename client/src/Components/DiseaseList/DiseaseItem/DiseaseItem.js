@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import classes from "./DiseaseItem.module.css";
 
-const diseaseItem = ({ item }) => {
+const diseaseItem = ({ item, onClick }) => {
   return (
     <div className={classes.card}>
       <div
@@ -28,6 +28,7 @@ const diseaseItem = ({ item }) => {
           color: "white",
           outline: "none",
         }}
+        onClick={onClick}
       >
         See More
       </button>

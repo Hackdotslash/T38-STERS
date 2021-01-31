@@ -26,16 +26,16 @@ const navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName={classes.active} to="/camps">
+        <NavLink activeClassName={classes.active} to="/hospitals">
           <span style={{ color: "var(--white-color)", fontSize: 24 }}>
-            <FontAwesomeIcon icon={faMedkit} />
+            <FontAwesomeIcon icon={faClinicMedical} />
           </span>
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName={classes.active} to="/hospitals">
+        <NavLink activeClassName={classes.active} to="/camps">
           <span style={{ color: "var(--white-color)", fontSize: 24 }}>
-            <FontAwesomeIcon icon={faClinicMedical} />
+            <FontAwesomeIcon icon={faMedkit} />
           </span>
         </NavLink>
       </li>
