@@ -9,7 +9,6 @@ import {
   faStar,
   faStarHalf,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 const Hospitals = () => {
   // eslint-disable-next-line no-unused-vars

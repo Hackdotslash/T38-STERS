@@ -13,8 +13,11 @@ const diseaseList = () => {
         display: "flex",
       }}
     >
-      <DiseaseItem />
-      <DiseaseItem />
+      <div>
+        <h1>Disease</h1>
+        <DiseaseItem />
+        <DiseaseItem />
+      </div>
     </div>
   );
 };
