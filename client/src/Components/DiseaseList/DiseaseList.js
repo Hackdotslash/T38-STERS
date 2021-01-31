@@ -1,22 +1,15 @@
 import React from "react";
-
+import classes from "./List.module.css";
 import DiseaseItem from "./DiseaseItem/DiseaseItem";
 
-const diseaseList = () => {
+const diseaseList = (props) => {
   return (
-    <div
-      style={{
-        width: 200,
-        textAlign: "center",
-        marginLeft: 100,
-        padding: 20,
-        display: "flex",
-      }}
-    >
-      <div>
-        <h1>Disease</h1>
-        <DiseaseItem />
-        <DiseaseItem />
+    <div className={classes.Outer}>
+      <h1 style={{ marginTop: "1rem", color: "var(--blue-color)" }}>Disease</h1>
+      <div className={classes.List}>
+        {props.data.map((item) => (
+          <DiseaseItem key={item.id} item={item} />
+        ))}
       </div>
     </div>
   );

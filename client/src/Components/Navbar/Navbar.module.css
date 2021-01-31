@@ -23,3 +23,20 @@ li:hover {
 .active svg {
   fill: "black";
 }
+
+@media (max-width: 800px) {
+  .Nav {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-around;
+    z-index: 10;
+  }
+  .Nav li {
+    margin-top: 0;
+  }
+}
