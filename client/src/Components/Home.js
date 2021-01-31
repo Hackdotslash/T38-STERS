@@ -1,11 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
 
+import DiseaseList from "./DiseaseList/DiseaseList";
+
 const Home = (props) => {
   return (
     <div>
       <Navbar />
-      <h1 style={{ marginLeft: 150 }}>Home</h1>
+      <div>
+        <DiseaseList />
+      </div>
     </div>
   );
 };
