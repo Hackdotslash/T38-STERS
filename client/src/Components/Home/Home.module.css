@@ -1,0 +1,67 @@
+.Hero {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 0 2rem;
+  background: #f1f6fd;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+.HeroText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Outer {
+  padding: 2rem;
+  margin-left: 6rem;
+}
+.Quote {
+  color: #354ba4;
+  margin: 20px 0;
+  width: 70%;
+  text-align: center;
+}
+.Image {
+  width: 320px;
+  height: 300px;
+}
+
+@media (max-width: 1200px) {
+  .Hero {
+    width: 90%;
+  }
+}
+@media (max-width: 1050px) {
+  .Hero {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .HeroText {
+    margin-left: 0;
+  }
+  .Quote {
+    margin-left: 0;
+    width: 70%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .Outer {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .Quote {
+    width: 95%;
+  }
+  .Image {
+    width: 95%;
+  }
+}
