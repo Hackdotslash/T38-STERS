@@ -3,7 +3,6 @@ import Navbar from "./Navbar/Navbar";
 
 import DiseaseList from "./DiseaseList/DiseaseList";
 import svg from "../assets/svg/doctor.svg";
-import doctor from "../assets/doctor.png";
 
 const Home = (props) => {
   return (
